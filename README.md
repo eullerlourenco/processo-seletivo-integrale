@@ -45,17 +45,22 @@ npm install
 ./vendor/bin/sail artisan key:generate
 ```
 
-### 6. Execute as migrações
+### 6. Limpar cache do Laravel para evitar erros
+```bash
+./vendor/bin/sail artisan config:clear
+```
+
+### 7. Execute as migrações
 ```bash
 ./vendor/bin/sail artisan migrate
 ```
 
-### 7. Execute a build
+### 8. Execute a build de assets do Front-end
 ```bash
 npm run build
 ```
 
-### 8. Acesse a aplicação
+### 9. Acesse a aplicação
 Acesse no navegador: [http://localhost](http://localhost)
 
 ---
