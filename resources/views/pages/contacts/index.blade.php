@@ -56,7 +56,7 @@
         </div>
     @else
         <div>
-            <h3 class="dark:text-white text-xl text-center">No contact messages found</h3>
+            <h3 class="text-white text-xl text-center">No contact messages found</h3>
         </div>
     @endif
 @endsection
