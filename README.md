@@ -50,7 +50,12 @@ npm install
 ./vendor/bin/sail artisan migrate
 ```
 
-### 7. Acesse a aplicação
+### 7. Execute a build
+```bash
+npm run build
+```
+
+### 8. Acesse a aplicação
 Acesse no navegador: [http://localhost](http://localhost)
 
 ---
